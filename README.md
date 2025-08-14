@@ -175,8 +175,8 @@ Esta guía contiene los servicios AWS esenciales para la certificación AWS Clou
 
 - **Basic:** Gratuito, acceso a documentación
 - **Developer:** Soporte técnico durante horario laboral
-- **Business:** Soporte 24/7, acceso a Trusted Advisor, AWS Support Api, concierne support team
-- **Enterprise:** Soporte dedicado, Technical Account Manager, AWS Support Api, concierne support team, funciones de gestion de eventos de infraestructura
+- **Business:** Soporte 24/7, acceso a Trusted Advisor, AWS Support Api
+- **Enterprise:** Soporte 24/7, Soporte dedicado, Technical Account Manager, AWS Support Api, concierne support team, funciones de gestion de eventos de infraestructura
 
 ## 💻 Servicios de Escritorio Virtual y Streaming
 
@@ -469,6 +469,8 @@ es un servicio que le permite registrar el historial de configuración de sus re
 
 ### 🌐 Componentes de Red en AWS
 
+## 🌐 Servicios de red en AWS: Definiciones y usos
+
 | Servicio                   | Definición oficial AWS                                                                 | ¿Para qué sirve?                                                                 |
 |----------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | **Internet Gateway**       | Componente escalable que permite comunicación entre VPC e Internet.                    | Acceso bidireccional desde subredes públicas a Internet.                        |
@@ -483,6 +485,8 @@ es un servicio que le permite registrar el historial de configuración de sus re
 | **Network ACL (NACL)**     | Lista de control de acceso a nivel de subred.                                          | Permite y deniega tráfico; es stateless y evalúa reglas en orden.              |
 | **Virtual Private Gateway**| Componente para conectar tu red on-premises a tu VPC mediante VPN.                    | Comunicación segura entre red local y AWS; no monitorea ni escala instancias.  |
 | **Amazon LightSail**       | Solución VPS simplificada con recursos preconfigurados.                               | Ideal para sitios web pequeños; no ofrece escalado automático ni monitoreo avanzado. |
+| **AWS PrivateLink**        | Tecnología escalable y de alta disponibilidad para conectar VPC a servicios de forma privada. | Permite acceso privado a servicios sin pasar por Internet; mejora seguridad y control. |
+| **AWS Site-to-Site VPN**   | Servicio gestionado que crea una conexión segura entre tu red local y AWS mediante túneles IPsec. | Conecta tu centro de datos o sucursal a AWS; ideal para migraciones y comunicación segura. |
 
 ### ❄️ Comparativa: AWS Snowcone vs AWS Snowball Edge
 
@@ -893,3 +897,343 @@ El **Informe de Costos y Uso de AWS (CUR)** es la fuente más completa y granula
 | **Concierge Support**              | Equipo especializado que brinda asistencia personalizada en gestión de cuentas, facturación y orientación estratégica para clientes Enterprise. |
 | **Technical Account Manager (TAM)**| Gerente técnico asignado que actúa como punto de contacto dedicado. Ofrece asesoría estratégica, revisiones arquitectónicas y coordinación de soporte proactivo. |
 | **Proactive Programs / Servicios proactivos** | Revisiones operativas, workshops y diagnósticos especializados que anticipan problemas, optimizan cargas y mejoran la postura de seguridad. Incluidos en el plan Enterprise. |
+
+## 🧭 Servicios Profesionales de AWS y el Marco de Adopción de la Nube (AWS CAF)
+
+Los **Servicios Profesionales de AWS** ofrecen una serie de servicios diseñados para ayudarle a lograr resultados específicos relacionados con la **adopción empresarial de la nube**. Cada servicio incluye:
+
+- Un conjunto de **actividades estructuradas**
+- **Prácticas recomendadas** basadas en experiencia real
+- **Documentación especializada** que refleja el apoyo brindado a cientos de clientes en su transición hacia AWS
+
+Los Servicios Profesionales utilizan una **metodología única**, basada en las prácticas internas de Amazon, para ayudarle a completar proyectos de forma **más rápida y fiable**, adaptándose a:
+
+- Expectativas cambiantes
+- Estructuras de equipo dinámicas
+- Ciclos iterativos de transformación
+
+---
+
+### 📐 Marco de Adopción de la Nube de AWS (AWS CAF)
+
+Los Servicios Profesionales de AWS desarrollaron el **AWS Cloud Adoption Framework (CAF)** para ayudar a las organizaciones a **diseñar y acelerar** una adopción exitosa de la nube.
+
+El marco proporciona:
+
+- **Guía estructurada** y **prácticas recomendadas**
+- Un enfoque integral para la **computación en la nube**
+- Aplicación transversal en toda la organización y durante el ciclo de vida de TI
+
+---
+
+### 🎯 Beneficios del uso de AWS CAF
+
+- **Aceleración** de la adopción de la nube
+- **Reducción de riesgos**
+- Obtención de **beneficios empresariales medibles**
+
+---
+
+> El uso del AWS CAF permite transformar su organización con mayor rapidez, alineando tecnología, procesos y personas hacia una adopción efectiva y sostenible de la nube.
+
+| 🔍 Perspectiva CAF         | 🔑 Palabras clave clave                                                                 |
+|---------------------------|------------------------------------------------------------------------------------------|
+| Negocio (Business)        | Valor comercial, resultados, casos de negocio, retorno de inversión (ROI), alineación estratégica |
+| Personas (People)         | Roles, habilidades, capacitación, gestión del cambio, cultura organizacional, liderazgo |
+| Gobernanza (Governance)   | Políticas, cumplimiento, gestión de riesgos, métricas, control financiero, auditoría     |
+| Plataforma (Platform)     | Arquitectura, automatización, infraestructura, escalabilidad, servicios cloud, migración |
+| Operaciones (Operations)  | Monitoreo, gestión de incidentes, continuidad, procesos operativos, soporte, mejora continua |
+| Seguridad (Security)      | Protección de datos, identidad, acceso, cumplimiento, cifrado, gestión de amenazas       |
+
+## 📊 Cuadro de palabras clave por fase del AWS CAF
+
+| 🧭 Fase CAF     | 🔑 Palabras clave clave                                                                 |
+|----------------|------------------------------------------------------------------------------------------|
+| **Visión** *(Envision)*     | Objetivos estratégicos, oportunidades de transformación, valor comercial, patrocinio ejecutivo |
+| **Alineación** *(Align)*    | Brechas de capacidades, dependencias, gestión del cambio, preparación organizacional |
+| **Lanzamiento** *(Launch)*  | Pilotos, producción inicial, validación de valor, aprendizaje iterativo, impacto medible |
+| **Escalado** *(Scale)*      | Ampliación, beneficios sostenibles, evolución continua, madurez organizacional, adopción total |
+
+## 🔐 AWS Security Hub: Definición y Casos de Uso
+
+### 📘 Definición
+
+**AWS Security Hub** es un servicio que centraliza y automatiza la recopilación, análisis y priorización de datos de seguridad provenientes de cuentas, servicios de AWS y herramientas de terceros. Proporciona una **visión integral del estado de seguridad**, facilita el cumplimiento normativo y permite responder de forma eficiente ante amenazas en entornos **cloud, híbridos y locales**.
+
+---
+
+### ✅ Casos de uso principales
+
+| 🧩 Caso de uso                                | 📌 Descripción                                                                                   |
+|----------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **Evaluación de cumplimiento normativo**     | Ejecuta comprobaciones automáticas basadas en estándares como CIS, PCI DSS, ISO 27001, etc.     |
+| **Agregación de hallazgos de seguridad**     | Centraliza resultados de servicios como GuardDuty, Inspector, Config y herramientas externas.   |
+| **Priorización de amenazas**                 | Clasifica hallazgos por severidad y permite enfocar esfuerzos en los riesgos más críticos.      |
+| **Automatización de respuestas**             | Integra con Lambda, EventBridge y Systems Manager para ejecutar acciones ante hallazgos.        |
+| **Visibilidad centralizada multi-account**   | Ofrece una vista unificada del estado de seguridad en múltiples cuentas y regiones.             |
+| **Integración con entornos híbridos**        | Compatible con AWS Outposts y soluciones locales para una cobertura de seguridad extendida.     |
+
+---
+
+## 🤝 APN Consulting Partners: Definición
+
+Los **APN Consulting Partners** son empresas que forman parte de la **Amazon Partner Network (APN)** y que ofrecen servicios especializados para ayudar a los clientes a **diseñar, desarrollar, migrar y gestionar** sus cargas de trabajo en AWS.
+
+### 🧩 ¿Qué tipo de servicios ofrecen?
+- Consultoría estratégica
+- Integración de sistemas
+- Servicios gestionados (MSP)
+- Resellers con valor agregado
+
+### 🎯 Objetivo
+Acelerar la adopción de la nube de AWS mediante **asesoría técnica y de negocio**, aprovechando las mejores prácticas y herramientas del ecosistema AWS.
+
+### 🌐 Ejemplos de actividades
+- Migración de aplicaciones y datos
+- Diseño de arquitecturas escalables y seguras
+- Optimización de costos y rendimiento
+- Cumplimiento normativo y seguridad
+
+> Más del 90% de las empresas Fortune 100 utilizan soluciones y servicios de APN Partners.
+
+
+## 🧱 Principios generales de diseño del AWS Well-Architected Framework
+
+El Marco de Well-Architected identifica un conjunto de principios que facilitan el diseño de arquitecturas robustas, escalables y eficientes en la nube. Estos principios permiten aprovechar al máximo las capacidades de AWS y minimizar riesgos operativos y financieros.
+
+---
+
+### ⚙️ 1. Eliminar conjeturas sobre capacidad
+
+> “No más conjeturas sobre la capacidad que necesita.”
+
+- En lugar de aprovisionar capacidad fija, se utiliza escalado automático.
+- Se evita el sobreaprovisionamiento costoso y el subaprovisionamiento que afecta el rendimiento.
+- Los servicios en la nube permiten ajustar la capacidad en tiempo real según la demanda.
+
+---
+
+### 🧪 2. Pruebas a escala de producción
+
+> “Prueba de sistemas a escala de producción.”
+
+- Se pueden crear entornos de prueba bajo demanda que simulan la producción.
+- Solo se paga por los recursos mientras se ejecutan las pruebas.
+- Permite validar comportamientos reales sin incurrir en costos fijos elevados.
+
+---
+
+### 🤖 3. Automatización basada en experimentación arquitectónica
+
+> “Automatización según la experimentación arquitectónica.”
+
+- La automatización reduce costos y errores humanos.
+- Facilita la replicación de cargas de trabajo y el rastreo de cambios.
+- Se pueden auditar impactos y revertir configuraciones cuando sea necesario.
+
+---
+
+### 🔄 4. Arquitecturas evolutivas
+
+> “Consideración de la posibilidad de usar arquitecturas evolutivas.”
+
+- Las decisiones arquitectónicas ya no son eventos estáticos.
+- La nube permite iterar, probar y evolucionar sistemas con bajo riesgo.
+- Se facilita la adaptación a requisitos cambiantes del negocio.
+
+---
+
+### 📊 5. Uso de datos para impulsar decisiones arquitectónicas
+
+> “Impulso de arquitecturas mediante el uso de datos.”
+
+- Se recopilan métricas sobre el comportamiento de las cargas de trabajo.
+- Las decisiones se basan en evidencia, no en suposiciones.
+- La infraestructura como código permite aplicar mejoras de forma continua.
+
+---
+
+### 🎮 6. Mejora continua mediante “días de juego”
+
+> “Mejora mediante ‘días de juego’.”
+
+- Se simulan eventos reales para probar la resiliencia de la arquitectura.
+- Se identifican oportunidades de mejora en procesos y sistemas.
+- Se fortalece la experiencia organizacional en gestión de incidentes.
+
+---
+
+## ☁️ Ventajas del Cloud Computing según AWS
+
+Amazon Web Services (AWS) define la computación en la nube como la distribución de recursos de TI bajo demanda a través de Internet, mediante un modelo de **pago por uso**. Estas son sus principales ventajas:
+
+---
+
+### 🚀 Agilidad
+- Acceso inmediato a servicios como **Amazon EC2**, **Amazon S3**, **Amazon RDS**, entre otros.
+- Permite experimentar, innovar y lanzar productos más rápido.
+
+### 📈 Elasticidad
+- Escalado automático de recursos con **Auto Scaling** y **Elastic Load Balancing**.
+- Se adapta a picos de demanda sin aprovisionamiento excesivo.
+
+### 💰 Ahorro de costos
+- Sustitución de gastos fijos por variables: se paga solo por lo que se usa.
+- Economías de escala gracias a la infraestructura global de AWS.
+
+### 🌍 Implementación global
+- Despliegue en múltiples **Regiones** y **Zonas de disponibilidad** con baja latencia.
+- Servicios como **Amazon CloudFront** permiten distribución de contenido a escala mundial.
+
+### 🔐 Seguridad
+- Infraestructura diseñada según el modelo de **Responsabilidad compartida**.
+- Servicios como **AWS IAM**, **AWS Shield**, **AWS KMS** y **Amazon GuardDuty** protegen datos y aplicaciones.
+
+### 🔄 Alta disponibilidad y recuperación
+- Arquitecturas resilientes con **Multi-AZ**, **Snapshots** y **Backup automatizado**.
+- Servicios como **AWS Elastic Disaster Recovery** facilitan la continuidad del negocio.
+
+### 🧠 Innovación continua
+- Acceso a tecnologías avanzadas como **Amazon SageMaker** (ML), **AWS IoT Core**, **Amazon Redshift** (análisis) y más.
+- Integración con más de 200 servicios gestionados.
+
+## 🔍 Funciones del Analizador de acceso de AWS IAM (IAM Access Analyzer)
+
+El **IAM Access Analyzer** es una herramienta de AWS que permite aplicar el principio de privilegio mínimo mediante análisis automatizados y validación de políticas. Sus funciones principales incluyen:
+
+---
+
+### 🛡️ 1. Identificación de acceso externo
+- Detecta recursos compartidos con **entidades externas** (otras cuentas de AWS, usuarios federados, roles públicos, etc.).
+- Analiza políticas basadas en recursos (como buckets de S3, roles de IAM, secretos de Secrets Manager).
+- Genera resultados detallados para evaluar si el acceso es **intencionado y seguro**.
+
+### 📘 2. Validación de políticas de IAM
+- Verifica que las políticas cumplan con la **gramática de políticas JSON** y las **mejores prácticas de seguridad**.
+- Incluye comprobaciones personalizadas para alinearse con estándares corporativos.
+- Ayuda a evitar errores comunes como permisos excesivos o condiciones mal definidas.
+
+### 📊 3. Generación de políticas basada en actividad
+- Analiza los registros de acceso en **AWS CloudTrail**.
+- Sugiere políticas refinadas basadas en el uso real de los permisos.
+- Ideal para reducir el acceso no utilizado y aplicar privilegio mínimo.
+
+---
+
+### 🧠 Funciones adicionales
+- **Análisis interno**: identifica accesos entre cuentas dentro de una organización
+
+## 🧠 Prácticas recomendadas para crear aplicaciones en la nube en AWS
+
+Estas prácticas están alineadas con el **AWS Well-Architected Framework** y ayudan a construir aplicaciones resilientes, escalables y eficientes en la nube.
+
+---
+
+### ⚠️ 1. Diseñar para el fracaso *(Design for failure)*
+
+> Asume que los componentes pueden fallar y diseña para recuperarte automáticamente.
+
+**Casos de uso:**
+- Uso de **Auto Scaling Groups** con múltiples instancias en distintas **Zonas de disponibilidad**.
+- Implementación de **Elastic Load Balancing** para distribuir tráfico y evitar puntos únicos de falla.
+- Configuración de **Amazon S3 Versioning** y **Lifecycle Policies** para recuperación de datos.
+
+---
+
+### 🔗 2. Desacoplar componentes *(Decouple your components)*
+
+> Separar funcionalidades permite escalar, actualizar y recuperar partes del sistema sin afectar el resto.
+
+**Casos de uso:**
+- Comunicación entre microservicios con **Amazon SQS** o **Amazon EventBridge**.
+- Uso de **Amazon SNS** para notificaciones asincrónicas.
+- Arquitecturas basadas en eventos con **AWS Lambda**.
+
+---
+
+### 📈 3. Implementar elasticidad *(Implement elasticity)*
+
+> Ajusta automáticamente los recursos según la demanda para optimizar costos y rendimiento.
+
+**Casos de uso:**
+- Escalado automático de instancias EC2 con **Auto Scaling**.
+- Uso de **AWS Lambda** para ejecución bajo demanda sin aprovisionamiento.
+- Almacenamiento escalable con **Amazon S3** y **Amazon DynamoDB**.
+
+---
+
+### 🧮 4. Pensar en paralelo *(Think parallel)*
+
+> Diseña procesos que puedan ejecutarse simultáneamente para mejorar eficiencia y rendimiento.
+
+**Casos de uso:**
+- Procesamiento distribuido con **AWS Step Functions** y **Lambda**.
+- Análisis de datos en paralelo con **Amazon EMR** o **AWS Glue**.
+- Carga masiva de objetos en **Amazon S3** usando multipart upload.
+### 
+
+## 🏢 Negocios
+- Gestión de Estrategia  
+- Gestión de Portafolio  
+- Gestión de Innovación  
+- Gestión de Producto  
+- Asociación Estratégica  
+- Monetización de Datos  
+- Perspectivas de Negocios  
+- Ciencia de Datos  
+
+## 👥 Personas
+- Evolución Cultural  
+- Liderazgo Transformacional  
+- Fluidez en la Nube  
+- Transformación de la Fuerza Laboral  
+- Aceleración del Cambio  
+- Diseño Organizacional  
+- Alineación Organizacional  
+
+## 🛡️ Gobernanza
+- Gestión de Programas y Proyectos  
+- Gestión de Beneficios  
+- Gestión de Riesgos  
+- Gestión Financiera en la Nube  
+- Gestión del Portafolio de Aplicaciones  
+- Gobernanza de Datos  
+- Curación de Datos  
+
+## 🧱 Plataforma
+- Arquitectura de Plataforma  
+- Arquitectura de Datos  
+- Ingeniería de Plataforma  
+- Ingeniería de Datos  
+- Aprovisionamiento y Orquestación  
+- Desarrollo de Aplicaciones Modernas  
+- CI/CD  
+
+## 🔐 Seguridad
+- Gobernanza de Seguridad  
+- Aseguramiento de Seguridad  
+- Gestión de Identidad y Acceso  
+- Detección de Amenazas  
+- Gestión de Vulnerabilidades  
+- Protección de Infraestructura  
+- Protección de Datos  
+- Seguridad de Aplicaciones  
+- Respuesta a Incidentes  
+
+## ⚙️ Operaciones
+- Observabilidad  
+- Gestión de Eventos (AIOps)  
+- Gestión de Incidentes y Problemas  
+- Gestión de Cambios y Lanzamientos  
+- Gestión del Rendimiento y Capacidad  
+- Gestión de Configuración  
+- Gestión de Parches  
+- Gestión de Disponibilidad y Continuidad  
+- Gestión de Aplicaciones  
+
+### S3 Multipart upload API
+
+se recomienda cuando los archivos superan los 100 MB utilizar esta opcion de s3
+
+### IAM DENEGACION EXPLICITA
+UNICA CUENTA QUE ENTRA EN AWS Y PUEDE HACER DE TODO ES la root, hay denegacion explicita para lo usuarios debajo de esa cuenta 
